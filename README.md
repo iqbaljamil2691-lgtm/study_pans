@@ -31,24 +31,6 @@ When any user opens **StudyPulse LMS**, the very first thing they see is a **Ful
 
 ---
 
-## 📸 Screenshots in Action
-
-### 1. Mandatory Initial Authentication Portal
-![Auth Landing Portal](screenshots/00_auth_landing_page.png)
-
-### 2. Student LMS Dashboard & Course Material Hub
-![Student Dashboard](screenshots/01_dashboard_upload.png)
-
-### 3. Multi-Week AI Study Plan & Exam Roadmap
-![AI Study Plan](screenshots/02_ai_study_plan.png)
-
-### 4. Diagnostic Exam Simulator & AI Tutor Chat
-![Quiz Simulator & AI Tutor](screenshots/03_quiz_and_tutor.png)
-
-### 5. Admin Platform Control Dashboard
-![Admin Dashboard](screenshots/04_admin_dashboard.png)
-
----
 
 ## 🗄️ Database Setup Instructions (Supabase)
 
