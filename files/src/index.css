@@ -1,0 +1,102 @@
+/* Custom Off-White, Woody, and Silvery Theme Utilities */
+@layer utilities {
+  .glass-card {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(214, 211, 209, 0.9);
+    box-shadow: 0 4px 20px -5px rgba(120, 53, 15, 0.08);
+  }
+
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .glass-card-hover:hover {
+    background: #ffffff;
+    border-color: rgba(146, 64, 14, 0.5);
+    box-shadow: 0 10px 30px -10px rgba(120, 53, 15, 0.15);
+    transform: translateY(-2px);
+  }
+
+  /* Scoped Gradient Headings Only */
+  .gradient-text {
+    background: linear-gradient(135deg, #78350f 0%, #92400e 50%, #44403c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient-silver {
+    background: linear-gradient(135deg, #334155 0%, #475569 50%, #64748b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Solid Opaque Woody Gradient for Buttons */
+  .woody-gradient {
+    background: linear-gradient(135deg, #78350f 0%, #92400e 100%) !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+  }
+
+  .woody-gradient:hover {
+    background: linear-gradient(135deg, #581c87 0%, #78350f 100%) !important;
+  }
+
+  /* Solid Opaque Silvery Button */
+  .silvery-btn {
+    background: #f1f5f9 !important;
+    color: #1e293b !important;
+    -webkit-text-fill-color: #1e293b !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+
+  .silvery-btn:hover {
+    background: #e2e8f0 !important;
+    color: #0f172a !important;
+  }
+}
+
+/* Ensure ALL buttons have 100% solid non-transparent text */
+button {
+  -webkit-text-fill-color: initial;
+}
+
+button span, button p, button div {
+  -webkit-text-fill-color: initial;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(247, 245, 240, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(146, 64, 14, 0.4);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 53, 15, 0.8);
+}
+
+/* 3D Flashcard Flip Effect */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
