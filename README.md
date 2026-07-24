@@ -1,8 +1,9 @@
 # StudyPulse LMS — Document-Driven AI Learning & Exam Platform
 
 > **Final Project Assessment — Ship Your AI App**  
-> **Live Deployed LMS App**: https://[https://study-pans.vercel.app/](https://study-pans.vercel.app/) 
-> **Public GitHub Repository**: [https://github.com/your-username/studypulse-ai](https://github.com/your-username/studypulse-ai)
+> **Live Deployed LMS App**: https://[https://study-pans.vercel.app/](https://study-pans.vercel.app/)
+
+> **Public GitHub Repository**: [https://github.com/iqbaljamil2691-lgtm/study_pans](https://github.com/iqbaljamil2691-lgtm/study_pans)
 
 ---
 
